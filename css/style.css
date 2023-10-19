@@ -1,0 +1,61 @@
+*{
+margin: 0;
+padding: 0;
+font-size: 100%; vertical-align: baseline; border: 0;
+}
+
+html {
+    background-image: url(../img/art-background4.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100%;
+}
+
+header {
+    background-color: white;    
+    padding: 1rem 3rem 2rem 1rem;            
+    margin-left: 15vh;
+    display: inline-block; 
+}
+
+header h1 {
+    font-size: 3rem;
+    font-family: six caps;
+}
+
+article{
+    margin-top: 20vh; 
+    width: 30%;         
+    margin-left: 15vh;  
+    display: block;  
+    font-size: 2rem;    
+}
+
+article h2{
+    padding: 2rem 2rem 2rem 1rem; 
+    background-color: rgba(255, 255, 255, 0.7);
+}
+
+.contenedor{
+    background-color: rgba(255, 255, 255, 0.5);
+    display: flex;
+    flex-direction: column;
+}
+
+.box{
+    padding: 1rem 1rem 1rem 1rem; 
+}
+
+.contador{
+    width: 70%;
+    margin-left: 1rem; 
+    margin-bottom: 5%;
+    padding: 1rem 3rem 2rem 1rem; 
+    background-color: rgba(59, 59, 59);
+    color: white;
+}
+
+footer{
+    background-color: white;
+    padding: 2rem 2rem 2rem 2rem; 
+}
